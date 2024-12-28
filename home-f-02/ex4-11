@@ -1,0 +1,8 @@
+#include <Stdio.h>
+
+int main(){
+    int x = 5;
+    x += 10;
+    printf("x += 10: %d\n", x);
+    return 0;
+}

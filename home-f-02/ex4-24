@@ -1,0 +1,7 @@
+#include <Stdio.h>
+
+int main(){
+    int x = 5;
+    printf("전위 증가: %d\n", ++x);
+    return 0;
+}

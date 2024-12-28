@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+    int a, b;
+    printf("두 정수를 입력하세요 (공백으로 구분): ");
+    scanf("%d %d", &a, &b);
+
+    if (b == 0) {
+        printf("오류: 0으로 나눌 수 없습니다.\n");
+        return 1;
+    }
+
+    printf("나눈 결과: %d\n", a / b);
+    return 0;
+}

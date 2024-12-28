@@ -1,0 +1,8 @@
+#include <Stdio.h>
+
+int main(){
+    int x = 10;
+    printf("후위감소: %d\n", x--);
+    printf("감소 후 x: %d\n",x);
+    return 0;
+}

@@ -1,0 +1,9 @@
+#include <Stdio.h>
+
+int main(){
+    int x = 10;
+    printf("x++: %d\n", x++);
+    printf("After x++: %d\n", x);
+    return 0;
+    
+}

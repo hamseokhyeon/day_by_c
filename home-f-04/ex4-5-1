@@ -1,0 +1,14 @@
+#include <Stdio.h>
+
+int main(){
+    int start, end, sum = 0;
+    printf("시작값과 끝값을 입력하세요 (공백으로 구분): ");
+    scanf("%d %d", &start, &end);
+
+    for (int i = start; i <= end; i++){
+        sum += i;
+    }
+
+    printf("합: %d\n", sum);
+    return 0;
+}
