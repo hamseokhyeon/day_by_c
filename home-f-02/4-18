@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int countBits(int num){
+    int count = 0;
+    while (num){
+        count += num & 1;
+        num >>= 1;
+    }
+    return count;
+}
+
+int main(){
+    int num = 13;
+    printf("%d에서 1의 개수: %d\n", num, countBits(num));
+    return 0;
+}

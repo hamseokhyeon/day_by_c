@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+    int num = 3;
+    int shift = 2;
+    int result = num << shift;
+
+    printf("%d을 %d비트 왼쪽으로 이동한 결과는 %d입니다.\n", num, shift, result);
+    return 0;
+}

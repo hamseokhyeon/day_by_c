@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+    int num = 8;
+    int bit = 1;
+    num |= (1 << bit);
+
+    printf("결과: %d\n", num);
+    return 0;
+}

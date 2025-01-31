@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(){
+    int num = 0b1010;
+    int flipped = ~num;
+
+    printf("원본: %d, 반전: %d\n", num, flipped);  
+    return 0;
+}

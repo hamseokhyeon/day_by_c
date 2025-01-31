@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+    int num  = 5;
+    int rotated = (num << 2) | (num >> (8 - 2));
+
+    printf("원본: %d, 회전 결과: %d\n", num, rotated);
+    return 0;
+
+}

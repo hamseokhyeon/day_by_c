@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+    int num = 5;
+    int factor = 3;
+    int result = num << factor;
+
+    printf("%d 곱하기 %d는 %d입니다. \n", num, 1 << factor, result);
+    return 0;
+}

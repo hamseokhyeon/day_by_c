@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stdbool.h": "c",
-        "ch_4_comparison_results": "cpp"
+        "ch_4_comparison_results": "cpp",
+        "4-10": "cpp",
+        "time.h": "c"
     }
 }

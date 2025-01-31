@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int isSymmetric(int num) {
+    int reversed = 0, original = num;
+    while (num > 0){
+        reversed = (reversed << 1) | (num & 1);
+        num >>= 1;
+    }
+    return original == reversed;
+}
+
+int main(){
+    int num = 9;
+    printf("%d는 좌우 대칭%s.n", num, isSymmetric(num) ? "입니다" : "이 아닙니다");
+}

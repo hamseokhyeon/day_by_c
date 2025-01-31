@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(){
+    int num = 0xF0;
+    int mask = 0x0F;
+
+    printf("AND 결과: %x\n", num & mask);
+    return 0;
+}

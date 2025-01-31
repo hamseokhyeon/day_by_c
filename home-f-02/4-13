@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+    int num = 40;
+    int divisor = 3;
+    int result = num >> divisor;
+
+    printf("%d 나누기 %d는 %d입니다.\n", num, 1 << divisor, result);
+    return 0;
+}

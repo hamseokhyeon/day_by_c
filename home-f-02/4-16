@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main(){
+    int mask = ~0;
+    printf("Mask: %x\n", mask); 
+    return 0;
+}
